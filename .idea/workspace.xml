@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cef12c4b-7962-4689-8f61-6ca4acae24aa" name="Changes" comment="otus-Homework_3_beginning.">
+    <list default="true" id="cef12c4b-7962-4689-8f61-6ca4acae24aa" name="Changes" comment="otus-Homework_3_full">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/otus/basic/lesson1/HomeWork3New.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/otus/basic/lesson1/HomeWork3New.java" afterDir="false" />
     </list>
@@ -113,7 +113,14 @@
       <option name="project" value="LOCAL" />
       <updated>1722166255193</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="otus-Homework_3_full">
+      <created>1722173114055</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1722173114055</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -130,7 +137,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="otus-1. HW1, tasks 1-3" />
     <MESSAGE value="otus-Homework_3_beginning." />
-    <option name="LAST_COMMIT_MESSAGE" value="otus-Homework_3_beginning." />
+    <MESSAGE value="otus-Homework_3_full" />
+    <option name="LAST_COMMIT_MESSAGE" value="otus-Homework_3_full" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
