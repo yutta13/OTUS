@@ -9,8 +9,9 @@ public class HomeWork3New {
         nullDiagonalElements(new int[][]{{1, 2, 3, 5, 6}, {1, 2, 3, 5, 6}, {1, 2, 3, 5, 6}, {1, 2, 3, 5, 6}, {1, 2, 3, 5, 6}});
         findMax(new int[][]{{-11, -2, -3, -5, -66}, {-118, -12, -13, -14, -16}, {-21, -22, -72, -25, -26}, {-31, -32, -33, -35, -36}, {-41, -42, -84, -45, -46}});
         findMax(new int[][]{{-11, -2, -3, -5, -66}, {-118, -12, -13, -14, 516}, {-21, -22, -72, 25, -26}, {-31, -32, 33, 35, 36}, {-41, 42, 84, 45, 46}});
-        sumSecondLineElements(new int[][]{{1, 2, 3, 5, 66}, {31, 32, 33, 35, 36}, {1, 2, 1, 2, 1}});
-        sumSecondLineElements(new int[][]{{1, 2, 3, 5, 66}, {31, 32, 33, 35, 36}});
+        System.out.println(sumSecondLineElements(new int[][]{{1, 2, 3, 5, 66}, {31, 32, 33, 35, 36}, {1, 2, 1, 2, 1}}));
+        System.out.println(sumSecondLineElements(new int[][]{{1, 2, 3, 5, 66}, {31, 32, 33, 35, 36}}));
+        System.out.println(sumSecondLineElements(new int[][]{{1, 2, 3, 5, 66}}));
     }
 
     public static int sumOfPositiveElements(int[][] arr) {
@@ -67,34 +68,18 @@ public class HomeWork3New {
         System.out.println(maxElement);
         return maxElement;
     }
-
     public static int sumSecondLineElements(int[][] array) {
         System.out.println("exercise 5");
+        if (array.length < 2) {
+            return -1;
+        }
         int sum = 0;
-        if (array.length <= 2) {
-            sum = -1;
-            System.out.println(sum);
-            return sum;
-        } else
-
-            for (int i = 2; i < array.length; ++i) {
-                for (int j = 0; j < array[i].length; ++j) {
-                    sum += array[i][j];
-                }
-                System.out.println(sum);
-            }
-        return sum;
+        for (int i = 0; i < array[1].length; i++) {
+            sum += array[1][i];
+        }
+         return sum;
     }
 }
-
-
-//        for(int i = 0; i < arr.length; ++i) {
-//        for(int j = 0; j < arr[i].length; ++j) {
-//          System.out.print(arr[i][j] + " ");
-//          }
-//               System.out.println();
-//                  }
-//                   System.out.println();
 
 
 //        Реализовать метод sumOfPositiveElements(..), принимающий в качестве аргумента целочисленный двумерный массив,
