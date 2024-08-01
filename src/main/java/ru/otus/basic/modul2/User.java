@@ -9,6 +9,9 @@ public class User {
     private String email;
     private int age;
 
+    public int getAge() {
+        return age;
+    }
     public User(String name, String surname, String midname, String email, int age){
         this.name = name;
         this.surname = surname;
@@ -16,10 +19,10 @@ public class User {
         this.email = email;
         this.age=age;
     }
-
-    public void info(){
-        System.out.println("ФИО: " + surname +" "+ name +" "+ midname+"\nГод рождения: " + birthYearCalc(age) +"\nemail: "+ email);
+    public void printInfo(){
+        System.out.println("\nФИО: " + surname + " "+ name + " " + midname + "\nГод рождения: " + birthYearCalc(age) + "\ne-mail: " + email);
     }
+
 
     public int birthYearCalc(int age){
         int currentYear = Year.now().getValue();

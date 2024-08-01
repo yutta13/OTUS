@@ -7,6 +7,7 @@
     <list default="true" id="cef12c4b-7962-4689-8f61-6ca4acae24aa" name="Changes" comment="otus-modul2 started">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/otus/basic/modul2/Mainapp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/otus/basic/modul2/Mainapp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/otus/basic/modul2/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/otus/basic/modul2/User.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -175,7 +176,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/ru/otus/basic/modul2/User.java</url>
-          <line>24</line>
+          <line>30</line>
           <option name="timeStamp" value="53" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
