@@ -1,5 +1,5 @@
 package ru.otus.basic.modul2;
-public class Mainapp {
+public class MainUserApp {
     public static void main(String[] args) {
         User[] userArray = new User[]{
                 new User("Ivan", "Mikovich", "Kashtanov", "mail@mail.ru", 39),
@@ -21,7 +21,7 @@ public class Mainapp {
     public static void usersAge(User[] arr) {
         int minAge = 40;
         for (int i = 0; i < arr.length; i++) {
-            if (arr[i].getAge() > 40){
+            if (arr[i].getAge() > minAge){
                 arr[i].printInfo();
             }
         }
