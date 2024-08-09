@@ -2,36 +2,45 @@ package ru.otus.basic.modul2;
 
 public class Animal {
     String name;
-    float runspeed;
-    float swimspeed;
+    float runSpeed;
+    float swimSpeed;
     int stamina;
 
-    public float run(int distance){
+    public Animal(String name, int runspeed, int stamina) {
+        this.name = name;
+        this.runSpeed = runspeed;
+        this.stamina = stamina;
+    }
+
+    public float run(int distance) {
         float time;
-        this.stamina=stamina-distance*1;
-        if (stamina>0){
-            time = distance/runspeed;
-            System.out.println(name + " Затраченное время на бег, сек: " + time );
-        }else {
-            time=-1;
+        int n = 1; //коэффициент выносливости
+        this.stamina = stamina - distance * n;
+        if (stamina > 0) {
+            time = distance / runSpeed;
+            System.out.println(name + " Затраченное время на бег, сек: " + time);
+        } else {
+            time = -1;
             System.out.println(name + " Устала." + " Затраченное время на бег, сек: " + time);
         }
         return stamina;
     }
-    public float swim(int distance){
+
+    public float swim(int distance) {
         float time;
-        this.stamina=stamina-distance*1;
-        if (stamina>0){
-            time = distance/runspeed;
-        }else {
-            time=-1;
+        int n = 1; //коэффициент выносливости
+        this.stamina = stamina - distance * n;
+        if (stamina > 0) {
+            time = distance / runSpeed;
+        } else {
+            time = -1;
             System.out.println(name + " Устала");
         }
         System.out.println(name + " Затраченное время на плавание, сек: " + time);
         return stamina;
     }
 
-    public void info(){
+    public void info() {
         System.out.println("Оставшаяся выносливость в единицах у " + name + " составляет: " + stamina);
 
     }
@@ -47,5 +56,4 @@ public class Animal {
 //        на указанное действие, и “понижать выносливость” животного. Если выносливости не хватает, то возвращаем
 //        время -1 и указываем что у животного появилось состояние усталости. При выполнении действий пишем сообщения
 //        в консоль.
-
 //        Добавляем метод info(), который выводит в консоль состояние животного.
