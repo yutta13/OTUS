@@ -5,16 +5,18 @@ public class Animal {
     float runSpeed;
     float swimSpeed;
     int stamina;
+    int n; //коэффициент выносливости в плавании
 
-    public Animal(String name, int runspeed, int stamina) {
+    public Animal(String name, int runSpeed, int stamina) {
         this.name = name;
-        this.runSpeed = runspeed;
+        this.runSpeed = runSpeed;
         this.stamina = stamina;
+        this.n = n;
     }
 
     public float run(int distance) {
         float time;
-        int n = 1; //коэффициент выносливости
+        int n = 1; //коэффициент выносливости.
         this.stamina = stamina - distance * n;
         if (stamina > 0) {
             time = distance / runSpeed;
@@ -28,8 +30,7 @@ public class Animal {
 
     public float swim(int distance) {
         float time;
-        int n = 1; //коэффициент выносливости
-        this.stamina = stamina - distance * n;
+        this.stamina = stamina - distance * n; //коэф. выносиливости в плавании задается для каждого класса животных отдельно.
         if (stamina > 0) {
             time = distance / runSpeed;
         } else {
