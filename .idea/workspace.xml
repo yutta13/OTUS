@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cef12c4b-7962-4689-8f61-6ca4acae24aa" name="Changes" comment="hw4_1">
+    <list default="true" id="cef12c4b-7962-4689-8f61-6ca4acae24aa" name="Changes" comment="homework_3, fixed">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/otus/basic/modul2Practice/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/otus/basic/modul2Practice/Cat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/otus/basic/modul2Practice/MainApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/otus/basic/modul2Practice/MainApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/otus/basic/modul2Practice/Plate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/otus/basic/modul2Practice/Plate.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -149,7 +146,14 @@
       <option name="project" value="LOCAL" />
       <updated>1722173114055</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="homework_3, fixed">
+      <created>1723448992096</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1723448992096</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -168,7 +172,8 @@
     <MESSAGE value="otus-Homework_3_beginning." />
     <MESSAGE value="otus-Homework_3_full" />
     <MESSAGE value="hw4_1" />
-    <option name="LAST_COMMIT_MESSAGE" value="hw4_1" />
+    <MESSAGE value="homework_3, fixed" />
+    <option name="LAST_COMMIT_MESSAGE" value="homework_3, fixed" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
