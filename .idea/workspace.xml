@@ -4,16 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cef12c4b-7962-4689-8f61-6ca4acae24aa" name="Changes" comment="otus-Homework_3_full_fix_errors_02">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/otus/basic/modul2Practice/Cat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/otus/basic/modul2Practice/MainApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/otus/basic/modul2Practice/Plate.java" afterDir="false" />
+    <list default="true" id="cef12c4b-7962-4689-8f61-6ca4acae24aa" name="Changes" comment="hw4_1">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/otus/basic/modul2/Animal.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/otus/basic/modul2/Cats.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/otus/basic/modul2/Dogs.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/otus/basic/modul2/Horse.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/otus/basic/modul2/MainApp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/otus/basic/modul2Practice/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/otus/basic/modul2Practice/Cat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/otus/basic/modul2Practice/MainApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/otus/basic/modul2Practice/MainApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/otus/basic/modul2Practice/Plate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/otus/basic/modul2Practice/Plate.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -172,7 +167,8 @@
     <MESSAGE value="otus-1. HW1, tasks 1-3" />
     <MESSAGE value="otus-Homework_3_beginning." />
     <MESSAGE value="otus-Homework_3_full" />
-    <option name="LAST_COMMIT_MESSAGE" value="otus-Homework_3_full" />
+    <MESSAGE value="hw4_1" />
+    <option name="LAST_COMMIT_MESSAGE" value="hw4_1" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

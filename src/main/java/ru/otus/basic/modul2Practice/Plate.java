@@ -9,15 +9,27 @@ public class Plate {
         this.currentFood = currentFood;
     }
 
-    //метод, позволяющий добавить еду в тарелку
+    /**
+     * метод, позволяющий добавить еду в тарелку
+     *
+     * @param food
+     */
     public void addFood(int food) {
+        if (currentFood < 0) {
+            currentFood = 0;
+        }
         currentFood += food;
         if (currentFood > maxFood) {
             currentFood = maxFood;
         }
     }
 
-    //метод уменьшения количества еды
+    /**
+     * метод уменьшения количества еды
+     *
+     * @param food
+     * @return
+     */
     public boolean decreaseFood(int food) {
         if (currentFood - food >= 0) {
             currentFood -= food;
