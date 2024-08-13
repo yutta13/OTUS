@@ -2,17 +2,28 @@ package ru.otus.basic.module2.hw4;
 
 public class Person {
     private String name;
-    private String currentTransport;
+    private Transport currentTransport;
 
     public Person(String name) {
         this.name = name;
     }
 
-
-
-    public String getCurrentTransport() {
-        return currentTransport;
+    public void go(int distance, Terrain terrain){
+        System.out.println(name + " идет пешком");
     }
+
+    public void go(Transport transport,int distance, Terrain terrain){
+            transport.move(distance, terrain);
+    }
+
+    public void getOn(Transport transport){
+        transport.getOn();
+    }
+
+    public void getOff(Transport transport){
+        transport.getOff();
+    }
+
 
 
 }

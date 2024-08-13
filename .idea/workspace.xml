@@ -6,6 +6,15 @@
   <component name="ChangeListManager">
     <list default="true" id="cef12c4b-7962-4689-8f61-6ca4acae24aa" name="Changes" comment="otus-Homework_3_full_fix_errors_02">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/otus/basic/module2/hw4/Action.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/otus/basic/module2/hw4/Bike.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/otus/basic/module2/hw4/Bike.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/otus/basic/module2/hw4/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/otus/basic/module2/hw4/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/otus/basic/module2/hw4/Hourse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/otus/basic/module2/hw4/Hourse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/otus/basic/module2/hw4/MainApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/otus/basic/module2/hw4/MainApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/otus/basic/module2/hw4/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/otus/basic/module2/hw4/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/otus/basic/module2/hw4/Rover.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/otus/basic/module2/hw4/Rover.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/otus/basic/module2/hw4/Terrain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/otus/basic/module2/hw4/Terrain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/otus/basic/module2/hw4/Transport.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/otus/basic/module2/hw4/Transport.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,13 +56,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "D:/TMP/untitled2"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="Application.ru.otus.basic.module2.hw4.MainApp">
     <configuration name="HomeWork1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ru.otus.basic.lesson1.HomeWork1" />
@@ -185,8 +195,8 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/ru/otus/basic/module2/hw4/MainApp.java</url>
-          <line>10</line>
-          <option name="timeStamp" value="78" />
+          <line>16</line>
+          <option name="timeStamp" value="81" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/ru/otus/basic/lesson1/HomeWork1.java</url>
@@ -196,6 +206,15 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/ru/otus/basic/module2/hw4/Rover.java</url>
+          <line>23</line>
+          <properties class="ru.otus.basic.module2.hw4.Rover" method="move">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="80" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

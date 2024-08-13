@@ -2,19 +2,30 @@ package ru.otus.basic.module2.hw4;
 
 public class MainApp {
     public static void main(String[] args) {
-        Rover rover = new Rover(450);
+
         Person person1 = new Person("Ivan");
+        Rover rover = new Rover(500, "RangeRover");
+        Car car = new Car(100, "Kia Carnival");
+        Bike bike = new Bike("Merida");
+        Hourse hourse = new Hourse(80, "Buraya");
 
+        person1.getOn(rover);
+        person1.go(rover, 60, Terrain.LES);
+        person1.go(rover, 60, Terrain.RAVNINA);
 
-        person1.getCurrentTransport();
+        person1.go(car, 60, Terrain.RAVNINA);
+        person1.go(car, 60, Terrain.LES);
 
-        letsGo(person1, rover, 460, Terrain.FOREST);
+        person1.go(bike, 60, Terrain.RAVNINA);
+        person1.go(bike, 60, Terrain.BOLOTO);
 
+        person1.go(hourse, 60, Terrain.BOLOTO);
+        person1.go(hourse, 60, Terrain.RAVNINA);
 
-    }
+        person1.go(bike, 560, Terrain.LES);
+        person1.go(hourse, 2000, Terrain.LES);
 
-    public static void letsGo(Person person, Action action, int distance, Terrain terrain) {
-        action.action(distance);
+        person1.go(40, Terrain.LES);
     }
 }
 

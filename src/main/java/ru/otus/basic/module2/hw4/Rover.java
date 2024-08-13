@@ -1,36 +1,39 @@
 package ru.otus.basic.module2.hw4;
 
-public class Rover extends Transport implements Action {
+public class Rover implements Transport {
+    String name ;
     int petrol;
-
-    public Rover(int petrol) {
+    public Rover(int petrol, String name) {
         this.petrol = petrol;
+        this.name =name;
     }
+
     @Override
-    public boolean action(int distance) {
-        this.petrol -= distance;
-       if (petrol>=0){
-           System.out.println("Проехал на вездеходе " + distance + "км, остаток бензина : " + petrol);
-               return true;
-       }
-       petrol=0;
+    public boolean getOn() {
+        System.out.println("Сел в вездеход");
+        return true;
+    }
+
+    @Override
+    public boolean getOff() {
+        System.out.println("Покинул вездеход");
+        return true;
+    }
+
+    @Override
+    public boolean move(int distance, Terrain terrain) {
+        this.petrol -= distance / 8;
+        if (petrol >= 0) {
+            System.out.println("Проехал на вездеходе " + name + " " + distance + "км, остаток бензина : " + petrol);
+            return true;
+        }
+        petrol = 0;
         System.out.println("упс, бензина  не хватило: " + petrol);
-       return false;
+        return false;
+    }
+
+    @Override
+    public String getName() {
+        return name;
     }
 }
-
-//Создайте класс Человек с полями name (имя) и currentTransport (текущий транспорт)
-//Реализуйте в вашем приложении классы Машина, Лошадь, Велосипед, Вездеход
-//Каждый из классов должен предоставлять возможность перемещаться на определенное расстояние с указанием типа местности
-//В приложении должны быть типы местности: густой лес, равнина, болото
-//Человек должен иметь возможность сесть на любой из этих видов транспорта, встать с него, или переместиться
-// на некоторое расстояние (при условии что он находится на каком-либо транспорте)
-//При попытке выполнить перемещение у человека, не использующего транспорт, считаем что он просто идет указанное расстояние пешком
-//При перемещении Машина и Вездеход тратят бензин, который у них ограничен.
-// Лошадь тратит силы.
-// Велосипед может использоваться без ограничений (можете для усложнения велосипедом тратить силы “водителя”).
-// При выполнении действия результат должен быть отпечатан в консоль
-//У каждого вида транспорта есть местности по которым он не может перемещаться: машина - густой лес и болото,
-// лошадь и велосипед - болото, вездеход - нет ограничений
-
-//При попытке переместиться должен быть возвращен результат true/false - удалось ли выполнить действие
