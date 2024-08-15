@@ -16,7 +16,7 @@ public class MainApp {
             catArray.letsEat(plate1);
         }
         System.out.println("добавим еды и снова покормим только рокки");
-        plate1.addFood(22);
+        plate1.addFood(-22);
         plate2.addFood(22);
         cats[2].letsEat(plate1);
     }

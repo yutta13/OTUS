@@ -15,6 +15,10 @@ public class Plate {
      * @param food
      */
     public void addFood(int food) {
+        if(food < 0) {
+            System.out.println("Значение еды отрицательное");
+            return;
+        }
         if (currentFood < 0) {
             currentFood = 0;
         }
