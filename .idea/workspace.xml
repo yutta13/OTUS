@@ -4,17 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cef12c4b-7962-4689-8f61-6ca4acae24aa" name="Changes" comment="otus-Homework_3_full_fix_errors_02">
+    <list default="true" id="cef12c4b-7962-4689-8f61-6ca4acae24aa" name="Changes" comment="otus-Homework_4_Interfaces and Enum Practice">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/otus/basic/module2/hw4/Action.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/otus/basic/module2/hw4/Bike.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/otus/basic/module2/hw4/Bike.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/otus/basic/module2/hw4/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/otus/basic/module2/hw4/Car.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/otus/basic/module2/hw4/Hourse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/otus/basic/module2/hw4/Hourse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/otus/basic/module2/hw4/MainApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/otus/basic/module2/hw4/MainApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/otus/basic/module2/hw4/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/otus/basic/module2/hw4/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/otus/basic/module2/hw4/Rover.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/otus/basic/module2/hw4/Rover.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/otus/basic/module2/hw4/Terrain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/otus/basic/module2/hw4/Terrain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/otus/basic/module2/hw4/Transport.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/otus/basic/module2/hw4/Transport.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +52,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "D:/TMP/untitled2"
+    "last_opened_file_path": "D:/JAVA_BASIC1"
   }
 }]]></component>
   <component name="RunManager" selected="Application.ru.otus.basic.module2.hw4.MainApp">
@@ -164,7 +155,14 @@
       <option name="project" value="LOCAL" />
       <updated>1723387095509</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="otus-Homework_4_Interfaces and Enum Practice">
+      <created>1723543187547</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1723543187547</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -183,7 +181,8 @@
     <MESSAGE value="otus-Homework_3_beginning." />
     <MESSAGE value="otus-Homework_3_full" />
     <MESSAGE value="otus-modul2 HW3_full" />
-    <option name="LAST_COMMIT_MESSAGE" value="otus-modul2 HW3_full" />
+    <MESSAGE value="otus-Homework_4_Interfaces and Enum Practice" />
+    <option name="LAST_COMMIT_MESSAGE" value="otus-Homework_4_Interfaces and Enum Practice" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
