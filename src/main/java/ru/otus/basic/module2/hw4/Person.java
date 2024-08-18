@@ -2,25 +2,41 @@ package ru.otus.basic.module2.hw4;
 
 public class Person {
     private String name;
+
+    public Transport getCurrentTransport() {
+        return currentTransport;
+    }
+
+    public void setCurrentTransport(Transport currentTransport) {
+        this.currentTransport = currentTransport;
+    }
+
     private Transport currentTransport;
 
     public Person(String name) {
         this.name = name;
     }
 
-    public void go(int distance, Terrain terrain){
-        System.out.println(name + " идет пешком");
-    }
+//    public void go(int distance, Terrain terrain){
+//        System.out.println(name + " идет пешком");
+//    }
 
-    public void go(Transport transport,int distance, Terrain terrain){
-            transport.move(distance, terrain);
+    public void go(int distance, Terrain terrain){
+        if (getCurrentTransport() != null){
+        getCurrentTransport().move(distance, terrain);
+        return;
+        }
+        System.out.println(name + " идет пешком");
+
     }
 
     public void getOn(Transport transport){
+        setCurrentTransport(transport);
         transport.getOn();
     }
 
     public void getOff(Transport transport){
+        setCurrentTransport(null);
         transport.getOff();
     }
 

@@ -4,26 +4,33 @@ public class MainApp {
     public static void main(String[] args) {
 
         Person person1 = new Person("Ivan");
+
         Rover rover = new Rover(500, "RangeRover");
         Car car = new Car(100, "Kia Carnival");
         Bike bike = new Bike("Merida");
         Hourse hourse = new Hourse(80, "Buraya");
 
         person1.getOn(rover);
-        person1.go(rover, 60, Terrain.LES);
-        person1.go(rover, 60, Terrain.RAVNINA);
+        person1.go(60, Terrain.LES);
+        person1.go(60, Terrain.RAVNINA);
+        person1.getOff(rover);
 
-        person1.go(car, 60, Terrain.RAVNINA);
-        person1.go(car, 60, Terrain.LES);
+        person1.getOn(car);
+        person1.go( 60, Terrain.RAVNINA);
+        person1.go(60, Terrain.LES);
+        person1.getOff(car);
 
-        person1.go(bike, 60, Terrain.RAVNINA);
-        person1.go(bike, 60, Terrain.BOLOTO);
+        person1.getOn(bike);
+        person1.go(60, Terrain.RAVNINA);
+        person1.go( 60, Terrain.BOLOTO);
+        person1.go( 560, Terrain.LES);
+        person1.getOff(bike);
 
-        person1.go(hourse, 60, Terrain.BOLOTO);
-        person1.go(hourse, 60, Terrain.RAVNINA);
-
-        person1.go(bike, 560, Terrain.LES);
-        person1.go(hourse, 2000, Terrain.LES);
+        person1.getOn(hourse);
+        person1.go( 60, Terrain.BOLOTO);
+        person1.go( 60, Terrain.RAVNINA);
+        person1.go( 2000, Terrain.LES);
+        person1.getOff(hourse);
 
         person1.go(40, Terrain.LES);
     }
