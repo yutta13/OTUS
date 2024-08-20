@@ -1,8 +1,8 @@
 package ru.otus.basic.modul2.exceptions;
 
 public class AppArrayDataException extends RuntimeException {
-    int row;
-    int col;
+    private int row;
+    private int col;
 
     public AppArrayDataException(int row, int col) {
         super();
