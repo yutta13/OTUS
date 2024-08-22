@@ -7,41 +7,30 @@ public class Person {
         return currentTransport;
     }
 
-    public void setCurrentTransport(Transport currentTransport) {
-        this.currentTransport = currentTransport;
-    }
-
     private Transport currentTransport;
 
     public Person(String name) {
         this.name = name;
     }
 
-//    public void go(int distance, Terrain terrain){
-//        System.out.println(name + " идет пешком");
-//    }
-
-    public void go(int distance, Terrain terrain){
-        if (getCurrentTransport() != null){
-        getCurrentTransport().move(distance, terrain);
-        return;
+    public void go(int distance, Terrain terrain) {
+        if (getCurrentTransport() != null) {
+            getCurrentTransport().move(distance, terrain);
+            return;
         }
         System.out.println(name + " идет пешком");
 
     }
 
-    public void getOn(Transport transport){
-        setCurrentTransport(transport);
+    public void getOn(Transport transport) {
         transport.getOn();
+        currentTransport = transport;
     }
 
-    public void getOff(Transport transport){
-        setCurrentTransport(null);
+    public void getOff(Transport transport) {
         transport.getOff();
+        currentTransport = null;
     }
-
-
-
 }
 
 //Создайте класс Человек с полями name (имя) и currentTransport (текущий транспорт)
