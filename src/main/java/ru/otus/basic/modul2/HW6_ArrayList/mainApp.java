@@ -8,13 +8,13 @@ import java.util.List;
 
 public class mainApp {
     public static void main(String[] args) {
-//        List<Integer> list = elements(0, 5);
-//        System.out.println(list);
-//        List<Integer> list2 = new ArrayList<>(Arrays.asList(1, 5, 2, 3, 6, 10, 20, 0, 0, 0, 7));
-//        List<Integer> list3 = new ArrayList<>(Arrays.asList(1, 5, 2, 3, 6, 10, null, 0, 0, 0, 7));
-//        System.out.println(sumElements(list2));
-//        setElement(4, list3);
-//        increaseElement(2, list2);
+        List<Integer> list = elements(0, 5);
+        System.out.println(list);
+        List<Integer> list2 = new ArrayList<>(Arrays.asList(1, 5, 2, 3, 6, 10, 20, 0, 0, 0, 7));
+        List<Integer> list3 = new ArrayList<>(Arrays.asList(1, 5, 2, 3, 6, 10, null, 0, 0, 0, 7));
+        System.out.println(sumElements(list2));
+        setElement(4, list3);
+        increaseElement(2, list2);
         List<Employee> employeeList = new ArrayList<>(Arrays.asList(
                 new Employee("Ivan", 30),
                 new Employee("Nik", 70),
@@ -23,8 +23,9 @@ public class mainApp {
         ));
 
         employeeNamesList(employeeList);
-        //     ageGreaterFilterList(employeeList, 30);
+        ageGreaterFilterList(employeeList, 30);
         averageAgeList(employeeList, 38);
+        System.out.println(youngerEmployee(employeeList).getAge());
 
     }
 
@@ -73,7 +74,6 @@ public class mainApp {
     }
 
     public static List<Employee> ageGreaterFilterList(List<Employee> employeeList, int minAge) {
-        List<Employee> employeeListGrater = employeeList;
         Iterator<Employee> iter = employeeList.iterator();
         while (iter.hasNext()) {
             if (iter.next().getAge() < minAge) {
@@ -83,7 +83,7 @@ public class mainApp {
         for (Employee employee : employeeList) {
             System.out.println(employee.getName() + " - " + employee.getAge());
         }
-        return employeeListGrater;
+        return employeeList;
     }
 
     public static boolean averageAgeList(List<Employee> employeeList, int averageAge) {
@@ -102,17 +102,15 @@ public class mainApp {
     }
 
     public static Employee youngerEmployee(List<Employee> employeeList) {
-        int min = 0;
-        while (min) {
-            for (Employee employee : employeeList) {
-                int x = employee.getAge();
-            }
+        Employee youngerEmployee = employeeList.get(0);
+        for (Employee employee : employeeList) {
+            if (employee.getAge() < youngerEmployee.getAge())
+                youngerEmployee = employee;
 
         }
+        System.out.println(youngerEmployee);
+        return youngerEmployee;
 
     }
-
 }
 
-
-//    Реализуйте метод, принимающий в качестве аргумента список сотрудников, и возвращающий ссылку на самого молодого сотрудника.
