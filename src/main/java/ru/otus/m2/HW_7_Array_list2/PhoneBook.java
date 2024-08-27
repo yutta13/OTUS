@@ -1,26 +1,49 @@
 package ru.otus.m2.HW_7_Array_list2;
 
-import java.util.*;
+import java.util.HashMap;
+import java.util.Map;
 
 public class PhoneBook {
-    String fio;
-    int number;
-
-    public PhoneBook(String fio, int number) {
-        this.fio = fio;
-        this.number = number;
+    private Map<String, Integer> personContact;
+    public PhoneBook() {
+        personContact = new HashMap<>();
+    }
+   public void add(String fio, int number) {
+        personContact.put(fio, number);
     }
 
-    List<PhoneBook> PhoneBook = new ArrayList<>(Arrays.asList(
-            new PhoneBook("Ivan", 30),
-            new PhoneBook("Nik", 70),
-            new PhoneBook("Sasha", 20),
-            new PhoneBook("Borya", 34),
-            new PhoneBook("Ivan Ivanov", 89),
-            new PhoneBook("Ivan Ivanov", 89),
-            new PhoneBook("Nik Mamontov1", 22),
-            new PhoneBook("Nik Mamontov3", 47)
-    ));
+
+
+
+}
+
+//    public String getFio() {
+//        return fio;
+//    }
+//
+//    public void setFio(String fio) {
+//        this.fio = fio;
+//    }
+//
+//    public int getNumber() {
+//        return number;
+//    }
+//
+//    public void setNumber(int number) {
+//        this.number = number;
+//    }
+
+
+//    List<PhoneBook> PhoneBook = new ArrayList<>(Arrays.asList(
+//            new PhoneBook("Ivan", 30),
+//            new PhoneBook("Nik", 70),
+//            new PhoneBook("Sasha", 20),
+//            new PhoneBook("Borya", 34),
+//            new PhoneBook("Ivan Ivanov", 89),
+//            new PhoneBook("Ivan Ivanov", 89),
+//            new PhoneBook("Nik Mamontov1", 22),
+//            new PhoneBook("Nik Mamontov3", 47)
+//    ));
 
 
 //        Map<String, Integer> phoneBook = new HashMap<>(
@@ -30,13 +53,9 @@ public class PhoneBook {
 //        new PhoneBook("Nik Mamontov", 47);
 //
 //
-//    public static Map<String, Integer> add(String fio, int number) {
-//        Map<String, Integer> phoneBook = new HashMap<>();
-//        phoneBook.put(fio, number);
-//        return phoneBook;
-//    }
 
-}
+
+
 
 
 /*

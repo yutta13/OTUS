@@ -1,23 +1,13 @@
 package ru.otus.m2.HW_7_Array_list2;
-
 import java.util.*;
 
-public class mainapp extends PhoneBook {
-    public mainapp(String fio, int number) {
-        super(fio, number);
-    }
-
+public class mainapp {
     public static void main(String[] args) {
+        PhoneBook phoneBook = new PhoneBook();
 
-        Map<String, Integer> phoneBookMap = new HashMap<>();
+        phoneBook.add("nik",98888);
+        System.out.println(phoneBook);
+
+
     }
-
-
-
-        public static Map<String, Integer> add(String fio, int number) {
-        Map<String, Integer> phoneBook = new HashMap<>();
-        phoneBook.put(fio, number);
-        return phoneBook;
-    }
-
 }
