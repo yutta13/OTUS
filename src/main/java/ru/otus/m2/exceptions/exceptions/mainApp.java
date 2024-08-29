@@ -1,4 +1,4 @@
-package ru.otus.exceptions;
+package ru.otus.m2.exceptions.exceptions;
 
 import static java.lang.Integer.*;
 

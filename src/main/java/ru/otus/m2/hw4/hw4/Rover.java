@@ -1,4 +1,4 @@
-package ru.otus.hw4;
+package ru.otus.m2.hw4.hw4;
 
 public class Rover implements Transport {
     String name ;

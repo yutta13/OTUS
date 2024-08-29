@@ -1,4 +1,4 @@
-package ru.otus.HW6_ArrayList;
+package ru.otus.m2.HW6_ArrayList;
 
 import java.util.ArrayList;
 import java.util.Arrays;

@@ -1,4 +1,4 @@
-package ru.otus.HW6_ArrayList;
+package ru.otus.m2.HW6_ArrayList;
 
 public class Employee {
    private String name;
