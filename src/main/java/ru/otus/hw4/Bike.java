@@ -1,4 +1,4 @@
-package ru.otus.basic.module2.hw4;
+package ru.otus.hw4;
 
 public class Bike implements Transport {
     String name;

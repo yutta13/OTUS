@@ -1,4 +1,4 @@
-package ru.otus.basic.modul2.exceptions;
+package ru.otus.exceptions;
 
 public class AppArraySizeException extends RuntimeException {
     public AppArraySizeException() {
