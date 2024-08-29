@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cef12c4b-7962-4689-8f61-6ca4acae24aa" name="Changes" comment="homework_7_ arraylist2 tmp">
+    <list default="true" id="cef12c4b-7962-4689-8f61-6ca4acae24aa" name="Changes" comment="homework_7_ arraylist2 full">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/otus/m2/HW_7_Array_list2/PhoneBook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/otus/m2/HW_7_Array_list2/PhoneBook.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/otus/m2/HW_7_Array_list2/mainapp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/otus/m2/HW_7_Array_list2/mainapp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/otus/m2/HW_7_Array_list2/mainApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/otus/m2/HW_7_Array_list2/mainApp.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +55,7 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.mainapp">
+  <component name="RunManager" selected="Application.mainApp">
     <configuration name="HomeWork1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ru.otus.basic.lesson1.HomeWork1" />
       <module name="JAVA_BASIC1" />
@@ -108,8 +108,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="mainapp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.otus.m2.HW_7_Array_list2.mainapp" />
+    <configuration name="mainApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.otus.m2.HW_7_Array_list2.mainApp" />
       <module name="JAVA_BASIC1" />
       <extension name="coverage">
         <pattern>
@@ -123,7 +123,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.mainapp" />
+        <item itemvalue="Application.mainApp" />
         <item itemvalue="Application.PhoneBook" />
         <item itemvalue="Application.mainApp" />
         <item itemvalue="Application.MainApp" />
@@ -182,7 +182,21 @@
       <option name="project" value="LOCAL" />
       <updated>1724777107401</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="homework_7_ arraylist2 tmp2">
+      <created>1724779784543</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1724779784543</updated>
+    </task>
+    <task id="LOCAL-00008" summary="homework_7_ arraylist2 full">
+      <created>1724844712749</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1724844712749</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -202,7 +216,9 @@
     <MESSAGE value="otus-Homework_3_full" />
     <MESSAGE value="otus-modul2 HW3_full" />
     <MESSAGE value="homework_7_ arraylist2 tmp" />
-    <option name="LAST_COMMIT_MESSAGE" value="homework_7_ arraylist2 tmp" />
+    <MESSAGE value="homework_7_ arraylist2 tmp2" />
+    <MESSAGE value="homework_7_ arraylist2 full" />
+    <option name="LAST_COMMIT_MESSAGE" value="homework_7_ arraylist2 full" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -213,14 +229,9 @@
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/ru/otus/m2/HW_7_Array_list2/PhoneBook.java</url>
-          <line>5</line>
-          <option name="timeStamp" value="113" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/ru/otus/m2/HW_7_Array_list2/mainapp.java</url>
-          <line>7</line>
-          <option name="timeStamp" value="115" />
+          <url>file://$PROJECT_DIR$/src/main/java/ru/otus/m2/HW_7_Array_list2/mainApp.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="125" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/ru/otus/basic/lesson1/HomeWork1.java</url>

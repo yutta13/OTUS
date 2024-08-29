@@ -3,7 +3,7 @@ package ru.otus.m2.HW_7_Array_list2;
 import java.util.*;
 
 public class PhoneBook {
-    private Map<String, List<Integer>> personContactMap;
+    private Map<String, List<String>> personContactMap;
 
     public PhoneBook() {
         personContactMap = new HashMap<>();
@@ -16,8 +16,8 @@ public class PhoneBook {
      * @param fio ФИО
      * @param phoneNumber Номер телефона
      */
-    public void add(String fio, int phoneNumber) {
-        List<Integer> phoneNumbers = personContactMap.getOrDefault(fio, new ArrayList<>());
+    public void add(String fio, String phoneNumber) {
+        List<String> phoneNumbers = personContactMap.getOrDefault(fio, new ArrayList<>());
         phoneNumbers.add(phoneNumber);
         personContactMap.put(fio, phoneNumbers);
     }
@@ -37,7 +37,7 @@ public class PhoneBook {
      */
     public void find(String fio) {
         if (personContactMap.containsKey(fio)) {
-            List<Integer> number = new ArrayList<>(personContactMap.get(fio));
+            List<String> number = new ArrayList<>(personContactMap.get(fio));
             System.out.println(Arrays.asList(number));
         } else {
             System.out.println("Not founded");
@@ -49,8 +49,8 @@ public class PhoneBook {
      * @param phoneNumber номер телефона
      * @return да/нет наличие телефона в справочнике
      */
-    public boolean containsPhoneNumber(int phoneNumber) {
-        for (List<Integer> numbers : personContactMap.values()) {
+    public boolean containsPhoneNumber(String phoneNumber) {
+        for (List<String> numbers : personContactMap.values()) {
             if (numbers.contains(phoneNumber)) {
                 System.out.println("Найден телефон " + phoneNumber );
                 return true;
