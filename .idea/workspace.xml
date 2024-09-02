@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cef12c4b-7962-4689-8f61-6ca4acae24aa" name="Changes" comment="homework_7_ arraylist2 full" />
+    <list default="true" id="cef12c4b-7962-4689-8f61-6ca4acae24aa" name="Changes" comment="homework_7_ arraylist2 full">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,7 +22,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="OTUS_M2_HW_9_IO" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -120,11 +122,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.mainApp" />
         <item itemvalue="Application.PhoneBook" />
         <item itemvalue="Application.mainApp" />
         <item itemvalue="Application.MainApp" />
         <item itemvalue="Application.HomeWork1" />
+        <item itemvalue="Application.mainApp" />
       </list>
     </recent_temporary>
   </component>
@@ -222,7 +224,8 @@
     <MESSAGE value="homework_7_ arraylist2 tmp" />
     <MESSAGE value="homework_7_ arraylist2 tmp2" />
     <MESSAGE value="homework_7_ arraylist2 full" />
-    <option name="LAST_COMMIT_MESSAGE" value="homework_7_ arraylist2 full" />
+    <MESSAGE value="9 rename" />
+    <option name="LAST_COMMIT_MESSAGE" value="9 rename" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
