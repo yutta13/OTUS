@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cef12c4b-7962-4689-8f61-6ca4acae24aa" name="Changes" comment="9 rename" />
+    <list default="true" id="cef12c4b-7962-4689-8f61-6ca4acae24aa" name="Changes" comment="9 rename">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/otus/m2/HW_9_IO/MainApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -55,20 +58,7 @@
     &quot;last_opened_file_path&quot;: &quot;D:/SVATT/svatt-svfe-tests&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.ru.otus.m2.HW_8_tree.MainApp">
-    <configuration name="MainApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.otus.basic.modul2.MainApp" />
-      <module name="JAVA_BASIC1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.otus.basic.modul2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.ru.otus.m2.HW_9_IO.MainApp">
     <configuration name="PersonDataBase" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ru.otus.m2.HW_8_tree.PersonDataBase" />
       <module name="JAVA_BASIC1" />
@@ -134,13 +124,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ru.otus.m2.HW_9_IO.MainApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.otus.m2.HW_9_IO.MainApp" />
+      <module name="JAVA_BASIC1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.otus.m2.HW_9_IO.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ru.otus.m2.HW_9_IO.MainApp" />
         <item itemvalue="Application.ru.otus.m2.HW_8_tree.MainApp" />
         <item itemvalue="Application.PersonDataBase" />
         <item itemvalue="Application.PhoneBook" />
         <item itemvalue="Application.mainApp" />
-        <item itemvalue="Application.MainApp" />
       </list>
     </recent_temporary>
   </component>
@@ -267,6 +270,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/ru/otus/m2/HW_7_Array_list2/mainApp.java</url>
           <line>17</line>
           <option name="timeStamp" value="125" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/ru/otus/m2/HW_9_IO/MainApp.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="131" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/ru/otus/basic/lesson1/HomeWork1.java</url>
