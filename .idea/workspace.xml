@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cef12c4b-7962-4689-8f61-6ca4acae24aa" name="Changes" comment="9 rename">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/otus/m2/HW_8_tree/MainApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/otus/m2/HW_8_tree/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/otus/m2/HW_8_tree/PersonDataBase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/otus/m2/HW_8_tree/Position.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="cef12c4b-7962-4689-8f61-6ca4acae24aa" name="Changes" comment="HW9 Io write and read practice _ Full" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,8 +13,6 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
-        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -28,7 +20,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="OTUS_M2_HW_9_IO" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -52,22 +44,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Git.Branch.Popup.ShowAllRemotes": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "D:/SVATT/svatt-svfe-tests"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Git.Branch.Popup.ShowAllRemotes&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Application.ru.otus.m2.HW_8_tree.MainApp">
-    <configuration name="MainApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.otus.basic.modul2.MainApp" />
+}</component>
+  <component name="RunManager" selected="Application.mainApp">
+    <configuration name="HomeWork1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.otus.basic.lesson1.HomeWork1" />
       <module name="JAVA_BASIC1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.otus.basic.modul2.*" />
+          <option name="PATTERN" value="ru.otus.basic.lesson1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -75,12 +66,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PersonDataBase" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.otus.m2.HW_8_tree.PersonDataBase" />
+    <configuration name="MainApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.otus.basic.modul2.MainApp" />
       <module name="JAVA_BASIC1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.otus.m2.HW_8_tree.*" />
+          <option name="PATTERN" value="ru.otus.basic.modul2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -127,26 +118,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ru.otus.m2.HW_8_tree.MainApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.otus.m2.HW_8_tree.MainApp" />
-      <module name="JAVA_BASIC1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.otus.m2.HW_8_tree.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ru.otus.m2.HW_8_tree.MainApp" />
-        <item itemvalue="Application.PersonDataBase" />
+        <item itemvalue="Application.mainApp" />
         <item itemvalue="Application.PhoneBook" />
         <item itemvalue="Application.mainApp" />
         <item itemvalue="Application.MainApp" />
+        <item itemvalue="Application.HomeWork1" />
       </list>
     </recent_temporary>
   </component>
@@ -222,21 +200,14 @@
       <option name="project" value="LOCAL" />
       <updated>1724921206771</updated>
     </task>
-    <task id="LOCAL-00010" summary="9 rename">
-      <created>1725265411164</created>
+    <task id="LOCAL-00010" summary="HW9 Io write and read practice _ Full">
+      <created>1725719722696</created>
       <option name="number" value="00010" />
       <option name="presentableId" value="LOCAL-00010" />
       <option name="project" value="LOCAL" />
-      <updated>1725265411164</updated>
+      <updated>1725719722696</updated>
     </task>
-    <task id="LOCAL-00011" summary="9 rename">
-      <created>1725434824346</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1725434824346</updated>
-    </task>
-    <option name="localTasksCounter" value="12" />
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -258,8 +229,8 @@
     <MESSAGE value="homework_7_ arraylist2 tmp" />
     <MESSAGE value="homework_7_ arraylist2 tmp2" />
     <MESSAGE value="homework_7_ arraylist2 full" />
-    <MESSAGE value="9 rename" />
-    <option name="LAST_COMMIT_MESSAGE" value="9 rename" />
+    <MESSAGE value="HW9 Io write and read practice _ Full" />
+    <option name="LAST_COMMIT_MESSAGE" value="HW9 Io write and read practice _ Full" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -282,15 +253,6 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/main/java/ru/otus/m2/HW_8_tree/PersonDataBase.java</url>
-          <line>9</line>
-          <properties class="ru.otus.m2.HW_8_tree.PersonDataBase" method="findById">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="127" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
