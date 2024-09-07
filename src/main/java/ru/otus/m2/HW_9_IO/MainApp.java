@@ -13,8 +13,10 @@ public class MainApp {
 
         Scanner scanner = new Scanner(System.in);
         System.out.println("select file ");
+
         String filename = scanner.next();
         printFromFile(filename + "\n");
+
         System.out.println("Ok, lets write to file : ");
         String tofile = scanner.next();
         writeToFile(tofile,filename);
