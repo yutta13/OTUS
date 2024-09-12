@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cef12c4b-7962-4689-8f61-6ca4acae24aa" name="Changes" comment="HW9 Io write and read practice _ Full" />
+    <list default="true" id="cef12c4b-7962-4689-8f61-6ca4acae24aa" name="Changes" comment="HW9 Io write and read practice _ Full_1">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,7 +22,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="OTUS_M2_HW_9_IO" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -44,28 +46,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Git.Branch.Popup.ShowAllRemotes&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Git.Branch.Popup.ShowAllRemotes": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "D:/java-socket-2024-06"
   }
-}</component>
-  <component name="RunManager" selected="Application.mainApp">
-    <configuration name="HomeWork1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.otus.basic.lesson1.HomeWork1" />
-      <module name="JAVA_BASIC1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.otus.basic.lesson1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+}]]></component>
+  <component name="RunManager" selected="Application.ru.otus.m3.HW1_calculator.client.MainApp">
     <configuration name="MainApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ru.otus.basic.modul2.MainApp" />
       <module name="JAVA_BASIC1" />
@@ -118,13 +108,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ru.otus.m3.HW1_calculator.client.MainApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.otus.m3.HW1_calculator.client.MainApp" />
+      <module name="JAVA_BASIC1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.otus.m3.HW1_calculator.client.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ru.otus.m3.HW1_calculator.server.MainApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.otus.m3.HW1_calculator.server.MainApp" />
+      <module name="JAVA_BASIC1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.otus.m3.HW1_calculator.server.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ru.otus.m3.HW1_calculator.client.MainApp" />
+        <item itemvalue="Application.ru.otus.m3.HW1_calculator.server.MainApp" />
         <item itemvalue="Application.mainApp" />
         <item itemvalue="Application.PhoneBook" />
         <item itemvalue="Application.mainApp" />
-        <item itemvalue="Application.MainApp" />
-        <item itemvalue="Application.HomeWork1" />
       </list>
     </recent_temporary>
   </component>
@@ -254,6 +270,10 @@
           </properties>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.net.ConnectException" package="java.net" />
+          <option name="timeStamp" value="133" />
+        </breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
