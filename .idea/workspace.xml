@@ -6,6 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="cef12c4b-7962-4689-8f61-6ca4acae24aa" name="Changes" comment="HW9 Io write and read practice _ Full_1">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/otus/m3/HW1_calculator/client/MainApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/otus/m3/HW1_calculator/client/MainApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/otus/m3/HW1_calculator/client/PingClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/otus/m3/HW1_calculator/client/PingClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/otus/m3/HW1_calculator/server/MainApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/otus/m3/HW1_calculator/server/MainApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/otus/m3/HW1_calculator/server/ServSend.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/otus/m3/HW1_calculator/server/ServSend.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,15 +50,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Git.Branch.Popup.ShowAllRemotes": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "D:/java-socket-2024-06"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Git.Branch.Popup.ShowAllRemotes&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/java-socket-2024-06&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Application.ru.otus.m3.HW1_calculator.client.MainApp">
     <configuration name="MainApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ru.otus.basic.modul2.MainApp" />
@@ -223,7 +227,21 @@
       <option name="project" value="LOCAL" />
       <updated>1725719722696</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="HW9 Io write and read practice _ Full_1">
+      <created>1726155925224</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1726155925224</updated>
+    </task>
+    <task id="LOCAL-00012" summary="HW9 Io write and read practice _ Full_1">
+      <created>1726155967546</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1726155967546</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -246,7 +264,8 @@
     <MESSAGE value="homework_7_ arraylist2 tmp2" />
     <MESSAGE value="homework_7_ arraylist2 full" />
     <MESSAGE value="HW9 Io write and read practice _ Full" />
-    <option name="LAST_COMMIT_MESSAGE" value="HW9 Io write and read practice _ Full" />
+    <MESSAGE value="HW9 Io write and read practice _ Full_1" />
+    <option name="LAST_COMMIT_MESSAGE" value="HW9 Io write and read practice _ Full_1" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -4,25 +4,18 @@ import java.net.ServerSocket;
 import java.net.Socket;
 
 
-
-
 public class MainApp {
     public static void main(String[] args) throws IOException {
         ServerSocket serverSocket = new ServerSocket(8888);
-
         while (true){
             System.out.println("Client connected!");
             Socket clientSocket = serverSocket.accept();
             ServSend servSend = new ServSend(clientSocket);
             servSend.info();
-            servSend.readRequest(clientSocket);
+            servSend.readRequest();
 
         }
     }
-
-
-
-
 }
 
 

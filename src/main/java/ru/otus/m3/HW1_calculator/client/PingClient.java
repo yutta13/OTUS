@@ -10,7 +10,6 @@ public class PingClient implements AutoCloseable {
     public PingClient(Socket sockets) throws IOException {
         this.inputStream = new DataInputStream(new BufferedInputStream(sockets.getInputStream()));
         this.outputStream = new DataOutputStream(new BufferedOutputStream(sockets.getOutputStream()));
-
     }
 
     public String send(String string) throws IOException {

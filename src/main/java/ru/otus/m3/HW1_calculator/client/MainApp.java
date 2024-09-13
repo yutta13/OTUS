@@ -1,22 +1,20 @@
 package ru.otus.m3.HW1_calculator.client;
+
 import java.io.IOException;
 import java.net.Socket;
 import java.net.UnknownHostException;
 import java.util.Scanner;
 
 public class MainApp {
-    public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        try(Socket socket = new Socket("localhost", 8888);
-            PingClient client = new PingClient(socket);
+    static Scanner scanner = new Scanner(System.in);
 
-        ) {
+    public static void main(String[] args) {
+        try (Socket socket = new Socket("localhost", 8888);
+             PingClient client = new PingClient(socket)) {
             System.out.println(client.read());
             String userInput = scanner.nextLine();
             client.send(userInput);
             System.out.println(client.read());
-
-
 
         } catch (UnknownHostException e) {
             throw new RuntimeException(e);
