@@ -1,7 +1,7 @@
 package ru.otus.m3.HW2;
 
 
-public class MainApp {
+public class mainApp {
     public static void main(String[] args) throws InterruptedException {
         int length = 100000000;
         int treadNumber = 5;
@@ -9,6 +9,7 @@ public class MainApp {
 
         //simpleFillArray(array);
         threadFillArray(array, treadNumber);
+
 
     }
 
@@ -25,17 +26,22 @@ public class MainApp {
         System.out.println(System.currentTimeMillis() - time);
     }
 
-    public static void threadFillArray(Double[] array, int treadNumber) {
+    public static void threadFillArray(Double[] array, int treadNumber) throws InterruptedException {
         long time = System.currentTimeMillis();
         int step = array.length / treadNumber;
+        Thread t1 = new Thread();
         for (int i = 0; i < treadNumber; i++) {
             final int start = step * i;
             final int end = step * i + step - 1;
-            new Thread(() -> {
+            t1 = new Thread(() -> {
                 fillarray(array, start, end);
-            }).start();
+            });
+            t1.start();
+
         }
+        t1.join();
         System.out.println(System.currentTimeMillis() - time);
+
     }
 }
 
