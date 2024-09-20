@@ -1,14 +1,18 @@
 package ru.otus.m3.HW2;
 
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class mainApp {
     public static void main(String[] args) throws InterruptedException {
-        int length = 100000000;
+        int length = 10000000;
         int treadNumber = 5;
         Double[] array = new Double[length];
 
         //simpleFillArray(array);
         threadFillArray(array, treadNumber);
+        //System.out.println(Arrays.asList(array));
 
 
     }
@@ -26,20 +30,20 @@ public class mainApp {
         System.out.println(System.currentTimeMillis() - time);
     }
 
-    public static void threadFillArray(Double[] array, int treadNumber) throws InterruptedException {
+    public static void threadFillArray(Double[] array, int threadNumber) throws InterruptedException {
         long time = System.currentTimeMillis();
-        int step = array.length / treadNumber;
-        Thread t1 = new Thread();
-        for (int i = 0; i < treadNumber; i++) {
+        int step = array.length / threadNumber;
+        List<Thread> threadlist = new ArrayList<>();
+        for (int i = 0; i < threadNumber; i++) {
             final int start = step * i;
             final int end = step * i + step - 1;
-            t1 = new Thread(() -> {
+            Thread t = new Thread(() -> {
                 fillarray(array, start, end);
             });
-            t1.start();
-
+            threadlist.add(t);
+            t.start();
+            t.join();
         }
-        t1.join();
         System.out.println(System.currentTimeMillis() - time);
 
     }
