@@ -45,7 +45,6 @@ public class mainApp {
             t.join();
         }
         System.out.println(System.currentTimeMillis() - time);
-
     }
 }
 
