@@ -42,8 +42,11 @@ public class mainApp {
             });
             threadlist.add(t);
             t.start();
-            t.join();
         }
+        for (Thread thread : threadlist) {
+            thread.join();
+        }
+
         System.out.println(System.currentTimeMillis() - time);
     }
 }
