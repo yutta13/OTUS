@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cef12c4b-7962-4689-8f61-6ca4acae24aa" name="Changes" comment="Modul 3 HW2 threadFillArray add join" />
+    <list default="true" id="cef12c4b-7962-4689-8f61-6ca4acae24aa" name="Changes" comment="Modul3 gen_box fixed comments" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,7 +20,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="OTUS_M3_HW_2" />
+        <entry key="$PROJECT_DIR$" value="OTUS_M4_HW1_io2" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -56,13 +56,13 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.ru.otus.m3.HW2.mainApp">
-    <configuration name="PhoneBook" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.otus.m2.HW_7_Array_list2.PhoneBook" />
+  <component name="RunManager" selected="Application.MainApp">
+    <configuration name="MainApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.otus.m3.hwGenBox.MainApp" />
       <module name="JAVA_BASIC1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.otus.m2.HW_7_Array_list2.*" />
+          <option name="PATTERN" value="ru.otus.m3.hwGenBox.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -137,11 +137,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MainApp" />
         <item itemvalue="Application.ru.otus.m3.HW2.mainApp" />
         <item itemvalue="Application.ru.otus.m3.HW1_calculator.client.MainApp" />
         <item itemvalue="Application.ru.otus.m3.HW1_calculator.server.MainApp" />
         <item itemvalue="Application.mainApp" />
-        <item itemvalue="Application.PhoneBook" />
       </list>
     </recent_temporary>
   </component>
@@ -252,7 +252,21 @@
       <option name="project" value="LOCAL" />
       <updated>1726328042892</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Modul4">
+      <created>1728906112531</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1728906112531</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Modul3 gen_box fixed comments">
+      <created>1728913498680</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1728913498680</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -279,7 +293,9 @@
     <MESSAGE value="Modul 3 HW1 Calculator ver.1" />
     <MESSAGE value="Modul 3 HW2 threadFillArray" />
     <MESSAGE value="Modul 3 HW2 threadFillArray add join" />
-    <option name="LAST_COMMIT_MESSAGE" value="Modul 3 HW2 threadFillArray add join" />
+    <MESSAGE value="Modul4" />
+    <MESSAGE value="Modul3 gen_box fixed comments" />
+    <option name="LAST_COMMIT_MESSAGE" value="Modul3 gen_box fixed comments" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
