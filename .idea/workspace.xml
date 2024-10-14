@@ -5,12 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cef12c4b-7962-4689-8f61-6ca4acae24aa" name="Changes" comment="Modul 3 HW2 threadFillArray add join">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/otus/m3/hw_gen_box/Apple.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/otus/m3/hw_gen_box/BoxGen.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/otus/m3/hw_gen_box/Fruit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/otus/m3/hw_gen_box/MainApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/otus/m3/hw_gen_box/Orange.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/otus/m3/hwGenBox/readme.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/otus/m3/hw_gen_box/Apple.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/otus/m3/hwGenBox/Apple.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/otus/m3/hw_gen_box/BoxGen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/otus/m3/hwGenBox/BoxGen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/otus/m3/hw_gen_box/Fruit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/otus/m3/hwGenBox/Fruit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/otus/m3/hw_gen_box/MainApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/otus/m3/hwGenBox/MainApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/otus/m3/hw_gen_box/Orange.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/otus/m3/hwGenBox/Orange.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,7 +28,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="OTUS_M4_HW1_io2" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -65,11 +66,11 @@
 }</component>
   <component name="RunManager" selected="Application.MainApp">
     <configuration name="MainApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.otus.m3.hw_gen_box.MainApp" />
+      <option name="MAIN_CLASS_NAME" value="ru.otus.m3.hwGenBox.MainApp" />
       <module name="JAVA_BASIC1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.otus.m3.hw_gen_box.*" />
+          <option name="PATTERN" value="ru.otus.m3.hwGenBox.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -259,7 +260,14 @@
       <option name="project" value="LOCAL" />
       <updated>1726328042892</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Modul4">
+      <created>1728906112531</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1728906112531</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -286,7 +294,8 @@
     <MESSAGE value="Modul 3 HW1 Calculator ver.1" />
     <MESSAGE value="Modul 3 HW2 threadFillArray" />
     <MESSAGE value="Modul 3 HW2 threadFillArray add join" />
-    <option name="LAST_COMMIT_MESSAGE" value="Modul 3 HW2 threadFillArray add join" />
+    <MESSAGE value="Modul4" />
+    <option name="LAST_COMMIT_MESSAGE" value="Modul4" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
