@@ -1,7 +1,9 @@
 package ru.otus.m4.testArray;
 
 public class ArraysMethods {
+
     public static int[] getNewArray(int[] array) {
+
         int index = -1;
         for (int i = 0; i < array.length; i++) {
             if (array[i] == 1) {
@@ -18,7 +20,7 @@ public class ArraysMethods {
         return newArray;
     }
 
-    public static boolean containValue(int[] array) {
+        public static boolean containValue(int[] array) {
         boolean containOne = false;
         boolean containTwo = false;
         if (array.length == 0) {
@@ -28,12 +30,9 @@ public class ArraysMethods {
         for (int i : array) {
             if (i == 1) {
                 containOne = true;
-            }
-            if (i == 2) {
+            }else if (i == 2) {
                 containTwo = true;
-            }
-        }
-        if (!containOne) {
+            }else return false;
         }
         return containOne & containTwo;
     }

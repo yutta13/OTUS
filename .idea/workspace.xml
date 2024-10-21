@@ -4,12 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cef12c4b-7962-4689-8f61-6ca4acae24aa" name="Changes" comment="Modul4 master merge">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/otus/m4/testArray/ArrayDataException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/otus/m4/testArray/ArraysMethods.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/otus/m4/testArray/mainApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ru/otus/m4/testArray/ArraysMethodsTests.java" afterDir="false" />
+    <list default="true" id="cef12c4b-7962-4689-8f61-6ca4acae24aa" name="Changes" comment="Modul4 junit tests">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/otus/m4/testArray/ArraysMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/otus/m4/testArray/ArraysMethods.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/otus/m4/testArray/mainApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/otus/m4/testArray/MainApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/otus/m4/testArray/ArraysMethodsTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/otus/m4/testArray/ArraysMethodsTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,10 +60,11 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "last_opened_file_path": "D:/2_2_11/test/svatt-svfe-tests",
+    "last_opened_file_path": "D:/JAVA_BASIC1",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -73,17 +74,20 @@
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\JAVA_BASIC1\src\main\resources" />
+    </key>
     <key name="CreateTestDialog.RecentsKey">
       <recent name="ru.otus.m4.testArray" />
     </key>
   </component>
   <component name="RunManager" selected="JUnit.ArraysMethodsTests">
-    <configuration name="mainApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.otus.m2.HW_7_Array_list2.mainApp" />
+    <configuration name="MainApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.otus.m4.testArray.MainApp" />
       <module name="JAVA_BASIC1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.otus.m2.HW_7_Array_list2.*" />
+          <option name="PATTERN" value="ru.otus.m4.testArray.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -173,10 +177,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.ArraysMethodsTests" />
+        <item itemvalue="Application.MainApp" />
         <item itemvalue="JUnit.ArraysMethodsTests.containValueFalseExpected" />
         <item itemvalue="JUnit.ArraysMethodsTests.containValueFalseExpected" />
         <item itemvalue="JUnit.ArraysMethodsTests.containValueSuccess" />
-        <item itemvalue="JUnit.ArraysMethodsTests.containValueOnlyOne" />
       </list>
     </recent_temporary>
   </component>
@@ -294,7 +298,14 @@
       <option name="project" value="LOCAL" />
       <updated>1729322453175</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Modul4 junit tests">
+      <created>1729348046748</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1729348046748</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -323,7 +334,8 @@
     <MESSAGE value="Modul 3 HW2 threadFillArray add join" />
     <MESSAGE value="Modul4 IO2 homework (countSequences in file)" />
     <MESSAGE value="Modul4 master merge" />
-    <option name="LAST_COMMIT_MESSAGE" value="Modul4 master merge" />
+    <MESSAGE value="Modul4 junit tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="Modul4 junit tests" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -338,6 +350,11 @@
           <line>17</line>
           <option name="timeStamp" value="125" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/ru/otus/m4/testArray/ArraysMethodsTests.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="134" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/ru/otus/basic/lesson1/HomeWork1.java</url>
           <line>22</line>
@@ -349,12 +366,21 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/test/java/ru/otus/m4/testArray/ArraysMethodsTests.java</url>
-          <line>56</line>
-          <properties class="ru.otus.m4.testArray.ArraysMethodsTests" method="containValueFalseExpected">
+          <line>61</line>
+          <properties class="ru.otus.m4.testArray.ArraysMethodsTests">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="133" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/ru/otus/m4/testArray/ArraysMethods.java</url>
+          <line>22</line>
+          <properties class="ru.otus.m4.testArray.ArraysMethods" method="containValue">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="135" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

@@ -22,26 +22,31 @@ class ArraysMethodsTests {
             Assertions.assertArrayEquals(expectedArray, ArraysMethods.getNewArray(array0));
         }
 
-
     @Test
     void containValueSuccess() {
         Assertions.assertTrue(ArraysMethods.containValue(array0));
     }
+    @Test
     void containValueOnlyOneValue() {
         Assertions.assertFalse(ArraysMethods.containValue(array1));
     }
+    @Test
     void containValueOneTwo() {
         Assertions.assertTrue(ArraysMethods.containValue(array2));
     }
+    @Test
     void containValueOnlyOne() {
         Assertions.assertFalse(ArraysMethods.containValue(array3));
     }
+    @Test
     void containValueTwoAbsent() {
         Assertions.assertFalse(ArraysMethods.containValue(array4));
     }
+    @Test
     void containValueEmptyArray() {
         Assertions.assertFalse(ArraysMethods.containValue(array5));
     }
+    @Test
     void containValueNoValidValues() {
         Assertions.assertFalse(ArraysMethods.containValue(array6));
     }
